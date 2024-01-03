@@ -18,7 +18,7 @@ with st.sidebar :
 
 if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
-    st.image("saluran1.jpg")
+    st.image("saluran ekiv.jpg")
     st.title("Rumus Impedansi Karakteristik")
     st.image("zo.jpg")
     st.title("Perhitungan Impedansi Karakteristik")
@@ -37,7 +37,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
     
 if(selected == "Perhitungan Konstanta Propagasi") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
-    st.image("saluran1.jpg")
+    st.image("saluran ekiv.jpg")
     st.title("Rumus Konstanta Propagasi")
     st.image("konstanta.jpg")
     st.title("Perhitungan Konstanta Propagasi")
