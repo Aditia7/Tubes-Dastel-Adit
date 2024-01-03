@@ -51,7 +51,7 @@ if(selected == "Perhitungan Konstanta Propagasi") :
     if hitung : 
         K_Propagasi=(((r+complex(0,2*math.pi*f*l))*(g+complex(0,2*math.pi*f*c)))**0.5)
         st.write("nilai konstanta propagasi adalah = ", K_Propagasi)
-        st.success(f"nilai konstanta redaman adalah = {K} dan konstanta phasa adalah = {Propagasi}")
+        st.success(f"nilai konstanta propagasi nya adalah = {K_Propagasi}")
   
         
 if(selected == "Perhitungan Rasio Daya") :
