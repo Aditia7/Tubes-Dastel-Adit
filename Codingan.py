@@ -56,7 +56,7 @@ if(selected == "Perhitungan Konstanta Propagasi") :
         
 if(selected == "Perhitungan Rasio Daya") :
     st.title("Rumus Rasio Daya")
-    st.image("dayaa.jpeg")
+    st.image("rasiodaya.jpg")
     st.title("Perhitungan Rasio Daya")
     p1=st.number_input("Masukkan nilai pin/p1(watt) : ",0.000)
     p2=st.number_input("Masukkan nilai pout/p2(watt): ",0.000)
@@ -104,7 +104,7 @@ if(selected == "Perhitungan Rasio Penguatan") :
 if(selected == "Perhitungan Rasio Redaman") :
     st.title("Perhitungan Rasio Redaman")
     st.title("Rumus Rasio Redaman")
-    st.image("redaman.jpeg")
+    st.image("redaman.jpg")
     k=st.number_input("Masukkan nilai Redaman : ",0.000)
     hitung = st.button ("hitung Rasio Redaman")
     if hitung : 
