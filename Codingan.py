@@ -32,7 +32,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
     if hitung : 
         Z_Propagasi=(((r+complex(0,2*math.pi*f*l))/(g+complex(0,2*math.pi*f*c)))**0.5)
         Z = ((r+complex(0,2*math.pi*f*l))
-        Propagasi = (g+complex(0,2*math.pi*f*c)**0.5)
+        Propagasi = ((g+complex(0,2*math.pi*f*c))**0.5)
         st.write("nilai Impedansi Karakteristik adalah = ", Z_Propagasi)
         st.success(f"nilai Impedansi Karakteristik adalah = {Z_Propagasi} ohm")
         st.success(f"nilai konstanta redaman nya = {Z}")
