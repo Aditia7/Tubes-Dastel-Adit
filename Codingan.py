@@ -19,7 +19,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
     st.image("saluran ekiv.jpg")
     st.title("Rumus Impedansi Karakteristik")
-    st.image("dayaa.jpeg")
+    st.image("zo.jpg")
     st.title("Perhitungan Impedansi Karakteristik")
 
     r = st.number_input ("masukan nilai Resistor(ohm/km)", 0.000)
