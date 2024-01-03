@@ -17,7 +17,7 @@ with st.sidebar :
 
 if(selected == "Perhitungan Impedansi Karakteristik") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
-    st.image("saluran ekiv.jpg")
+    st.image("ekivbaru.jpg")
     st.title("Rumus Impedansi Karakteristik")
     st.image("zo.jpg")
     st.title("Perhitungan Impedansi Karakteristik")
@@ -36,7 +36,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
     
 if(selected == "Perhitungan Konstanta Propagasi") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
-    st.image("saluran ekiv.jpg")
+    st.image("ekivbaru.jpg")
     st.title("Rumus Konstanta Propagasi")
     st.image("konstanta.jpg")
     st.title("Perhitungan Konstanta Propagasi")
@@ -68,7 +68,7 @@ if(selected == "Perhitungan Rasio Daya") :
 
 if(selected == "Perhitungan Rasio Tegangan") :
     st.title("Rumus Rasio Tegangan")
-    st.image("tega.jpeg")
+    st.image("rasioteg.jpg")
     st.title("Perhitungan Rasio Tegangan")
     V1=st.number_input("Masukkan nilai Vin/V1(volt) : ",0.000)
     V2=st.number_input("Masukkan nilai Vout/v2(volt): ",0.000)
@@ -80,7 +80,7 @@ if(selected == "Perhitungan Rasio Tegangan") :
 
 if(selected == "Perhitungan Rasio Arus") :
     st.title("Rumus Rasio Arus")
-    st.image("arus.jpeg")
+    st.image("rasioarus.jpg")
     st.title("Perhitungan Rasio Arus")
     i1=st.number_input("Masukkan nilai Iin/I1(ampere) : ",0.000)
     i2=st.number_input("Masukkan nilai Iout/I2(ampere): ",0.000)
@@ -93,7 +93,7 @@ if(selected == "Perhitungan Rasio Arus") :
 if(selected == "Perhitungan Rasio Penguatan") :
     st.title("Perhitungan Rasio Penguatan")
     st.title("Rumus Rasio Penguatan")
-    st.image("a.jpeg")
+    st.image("penguatan.jpg")
     k=st.number_input("Masukkan nilai penguatan : ",0.000)
     hitung = st.button ("hitung Rasio Penguatan")
     if hitung : 
@@ -104,7 +104,7 @@ if(selected == "Perhitungan Rasio Penguatan") :
 if(selected == "Perhitungan Rasio Redaman") :
     st.title("Perhitungan Rasio Redaman")
     st.title("Rumus Rasio Redaman")
-    st.image("b.jpeg")
+    st.image("redaman.jpeg")
     k=st.number_input("Masukkan nilai Redaman : ",0.000)
     hitung = st.button ("hitung Rasio Redaman")
     if hitung : 
