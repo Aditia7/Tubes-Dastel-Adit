@@ -35,7 +35,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
         a = (((r+(l))+(g+(c)))**0.05)
         st.write("nilai Impedansi Karakteristik adalah = ", Z_Propagasi)
         st.write("nilai Magnitude Impedansi Karakteristik nya = , a ohm")
-        st.write("nilai Sudut Impedansi Karakteristik nya = °, b°")
+        st.write("nilai Sudut Impedansi Karakteristik nya = , b°")
         st.success(f"nilai Impedansi Karakteristik adalah = {Z_Propagasi} ohm")
         st.success(f"nilai Impedansi Karakteristik adalah = {a} ∠ {b}°")
     
