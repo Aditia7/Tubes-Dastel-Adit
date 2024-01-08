@@ -61,7 +61,7 @@ if(selected == "Perhitungan Konstanta Propagasi") :
         
 if(selected == "Perhitungan Rasio Daya") :
     st.title("Rumus Rasio Daya")
-    st.image("rasiodaya.jpg")
+    st.image("dayabaru.jpg")
     st.title("Perhitungan Rasio Daya")
     p1=st.number_input("Masukkan nilai pin/p1(watt) : ",0.000)
     p2=st.number_input("Masukkan nilai pout/p2(watt): ",0.000)
@@ -73,7 +73,7 @@ if(selected == "Perhitungan Rasio Daya") :
 
 if(selected == "Perhitungan Rasio Tegangan") :
     st.title("Rumus Rasio Tegangan")
-    st.image("rasioteg.jpg")
+    st.image("tegabaru.jpg")
     st.title("Perhitungan Rasio Tegangan")
     V1=st.number_input("Masukkan nilai Vin/V1(volt) : ",0.000)
     V2=st.number_input("Masukkan nilai Vout/v2(volt): ",0.000)
@@ -85,7 +85,7 @@ if(selected == "Perhitungan Rasio Tegangan") :
 
 if(selected == "Perhitungan Rasio Arus") :
     st.title("Rumus Rasio Arus")
-    st.image("rasioarus.jpg")
+    st.image("arusbaru.jpg")
     st.title("Perhitungan Rasio Arus")
     i1=st.number_input("Masukkan nilai Iin/I1(ampere) : ",0.000)
     i2=st.number_input("Masukkan nilai Iout/I2(ampere): ",0.000)
@@ -98,7 +98,7 @@ if(selected == "Perhitungan Rasio Arus") :
 if(selected == "Perhitungan Rasio Penguatan") :
     st.title("Perhitungan Rasio Penguatan")
     st.title("Rumus Rasio Penguatan")
-    st.image("penguatan.jpg")
+    st.image("penguatanbaru.jpg")
     k=st.number_input("Masukkan nilai penguatan : ",0.000)
     hitung = st.button ("hitung Rasio Penguatan")
     if hitung : 
@@ -109,7 +109,7 @@ if(selected == "Perhitungan Rasio Penguatan") :
 if(selected == "Perhitungan Rasio Redaman") :
     st.title("Perhitungan Rasio Redaman")
     st.title("Rumus Rasio Redaman")
-    st.image("redaman.jpg")
+    st.image("redamanbaru.jpg")
     k=st.number_input("Masukkan nilai Redaman : ",0.000)
     hitung = st.button ("hitung Rasio Redaman")
     if hitung : 
