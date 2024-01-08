@@ -37,7 +37,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
         st.write("nilai Magnitude Impedansi Karakteristik nya = ohm", a)
         st.write("nilai Sudut Impedansi Karakteristik nya = °", b)
         st.success(f"nilai Impedansi Karakteristik adalah = {Z_Propagasi} ohm")
-        st.success(f"nilai Impedansi Karakteristik adalah = {a} ∠ {b}°")
+        st.success(f"nilai Impedansi Karakteristik adalah = {a} ∠ {b}° ohm")
     
 if(selected == "Perhitungan Konstanta Propagasi") :
     st.title("Rangkaian Ekivalen Saluran Transmisi")
