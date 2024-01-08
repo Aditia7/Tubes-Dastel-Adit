@@ -30,8 +30,8 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
 
     if hitung : 
         Z_Propagasi=(((r+complex(0,2*math.pi*f*l))/(g+complex(0,2*math.pi*f*c)))**0.5)
-        b = math.degrees(math.atan((g+(0,2*math.pi*f*c)))/(r+(0,2*math.pi*f*l)))
-        a = (((r+(0,2*math.pi*f*l))+(g+(0,2*math.pi*f*c)))**0.5)
+        b = math.degrees(math.atan((g+(0,2*3.14*f*c)))/(r+(0,2*3.14*f*l)))
+        a = (((r+(0,2*3.14*f*l))+(g+(0,2*3.14*f*c)))**0.5)
         st.write("nilai Impedansi Karakteristik adalah = ", Z_Propagasi)
         st.write("nilai Impedansi Karakteristik adalah = ", a)
         st.write("nilai Impedansi Karakteristik adalah = °", b)
