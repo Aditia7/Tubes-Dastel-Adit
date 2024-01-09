@@ -33,7 +33,7 @@ if(selected == "Perhitungan Impedansi Karakteristik") :
         Z_Propagasi=(((r+complex(0,2*math.pi*f*l))/(g+complex(0,2*math.pi*f*c)))**0.5)
         b = math.degrees(math.atan((g+(2*3.14*f*c)))/(r+(2*3.14*f*l)))
         a = (((r+(l))+(g+(c)))**0.05)
-        st.write("nilai Impedansi Karakteristik Zo (ohm) = ", Z_Propagasi)
+        st.write("nilai Impedansi Karakteristik Zo (ohm) ", Z_Propagasi)
         st.write("nilai Magnitude Impedansi Karakteristik (ohm)", a)
         st.write("Sudut Impedansi Karakteristik (°)", b)
         st.success(f"nilai Impedansi Karakteristik (cartesian) = {Z_Propagasi} ohm")
